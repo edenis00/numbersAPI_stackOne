@@ -7,17 +7,20 @@ An Api that takes a number and returns interesting mathematical properties about
 ## Installation (Locally)
 
 Step 1: Clone the git repository
+
     ```sh
         git clone "https://github.com/edenis00/numbersAPI_stackOne"
     ```
 
 Step 2: Setup a virtual environment(recommended)
+
     ```sh
         python -m venv venv
         source venv/bin/activate
     ```
 
 Step 3: Install dependencies
+
     ```sh
         pip install -r requirements.txt
     ```
@@ -25,6 +28,7 @@ Step 3: Install dependencies
 ## Usage
 
 Step 1: Run command
+
     ```sh
         uvicorn app.main:app --reload
     ```
